@@ -9,6 +9,18 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ch2" />
+            <option value="$PROJECT_DIR$/ch2/hello-world" />
+            <option value="$PROJECT_DIR$/ch3" />
+            <option value="$PROJECT_DIR$/ch3/bean-aliases" />
+            <option value="$PROJECT_DIR$/ch3/bean-autowiring" />
+            <option value="$PROJECT_DIR$/ch3/bean-inheritance" />
+            <option value="$PROJECT_DIR$/ch3/bean-instantiation-mode" />
+            <option value="$PROJECT_DIR$/ch3/cdl" />
+            <option value="$PROJECT_DIR$/ch3/collections" />
+            <option value="$PROJECT_DIR$/ch3/constructor-injection" />
+            <option value="$PROJECT_DIR$/ch3/dependency-pull" />
+            <option value="$PROJECT_DIR$/ch3/injection" />
           </set>
         </option>
       </GradleProjectSettings>

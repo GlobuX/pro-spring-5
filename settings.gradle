@@ -1,2 +1,12 @@
 rootProject.name = 'pro-spring-5'
-
+include 'ch2:hello-world'
+include 'ch3:injection'
+include 'ch3:bean-aliases'
+include 'ch3:bean-autowiring'
+include 'ch3:bean-inheritance'
+include 'ch3:bean-instantiation-mode'
+include 'ch3:cdl'
+include 'ch3:collections'
+include 'ch3:constructor-injection'
+include 'ch3:dependency-pull'
+//include 'ch4'

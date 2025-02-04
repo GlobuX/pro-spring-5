@@ -1,0 +1,29 @@
+plugins {
+	id 'java'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// https://mvnrepository.com/artifact/org.springframework/spring-context
+	implementation 'org.springframework:spring-context:6.2.2'
+	testImplementation platform('org.junit:junit-bom:5.10.0')
+	testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+//jar {
+//	manifest {
+//		attributes(
+//				"Created-By": "Iuliana Cosmina",
+//				"Specification-Title": "Pro Spring 5",
+//				"Main-Class": "com.apress.prospring5.ch3.xml.BeanNameAliasing",
+//				"Class-Path": configurations.compile.collect { it.getName() }.join(' ')
+//		)
+//	}
+//}
