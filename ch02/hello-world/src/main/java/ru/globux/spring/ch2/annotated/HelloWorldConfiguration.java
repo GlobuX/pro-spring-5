@@ -7,9 +7,6 @@ import ru.globux.spring.ch2.decoupled.StandardOutMessageRenderer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Created by iuliana.cosmina on 1/28/17.
- */
 @Configuration
 public class HelloWorldConfiguration {
 

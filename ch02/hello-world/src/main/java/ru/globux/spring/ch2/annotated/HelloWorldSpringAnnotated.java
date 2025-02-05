@@ -4,9 +4,6 @@ import ru.globux.spring.ch2.decoupled.MessageRenderer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-/**
- * Created by iuliana.cosmina on 1/28/17.
- */
 public class HelloWorldSpringAnnotated {
 
 	public static void main(String... args) {

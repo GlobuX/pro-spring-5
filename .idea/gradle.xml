@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../Gradle" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ch2" />
-            <option value="$PROJECT_DIR$/ch2/hello-world" />
-            <option value="$PROJECT_DIR$/ch3" />
-            <option value="$PROJECT_DIR$/ch3/bean-aliases" />
-            <option value="$PROJECT_DIR$/ch3/bean-autowiring" />
-            <option value="$PROJECT_DIR$/ch3/bean-inheritance" />
-            <option value="$PROJECT_DIR$/ch3/bean-instantiation-mode" />
-            <option value="$PROJECT_DIR$/ch3/cdl" />
-            <option value="$PROJECT_DIR$/ch3/collections" />
-            <option value="$PROJECT_DIR$/ch3/constructor-injection" />
-            <option value="$PROJECT_DIR$/ch3/dependency-pull" />
-            <option value="$PROJECT_DIR$/ch3/injection" />
+            <option value="$PROJECT_DIR$/ch02" />
+            <option value="$PROJECT_DIR$/ch02/hello-world" />
+            <option value="$PROJECT_DIR$/ch03" />
+            <option value="$PROJECT_DIR$/ch03/bean-aliases" />
+            <option value="$PROJECT_DIR$/ch03/bean-autowiring" />
+            <option value="$PROJECT_DIR$/ch03/bean-inheritance" />
+            <option value="$PROJECT_DIR$/ch03/bean-instantiation-mode" />
+            <option value="$PROJECT_DIR$/ch03/cdl" />
+            <option value="$PROJECT_DIR$/ch03/collections" />
+            <option value="$PROJECT_DIR$/ch03/constructor-injection" />
+            <option value="$PROJECT_DIR$/ch03/dependency-pull" />
+            <option value="$PROJECT_DIR$/ch03/injection" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
-    <option name="parallelModelFetch" value="true" />
   </component>
 </project>
