@@ -17,7 +17,7 @@ public class CTarget {
 		System.out.println("Target(Foo) called");
 	}
 
-	public CTarget(com.apress.prospring5.ch3.xml.Foo foo, Bar bar) {
+	public CTarget(ru.globux.spring.ch3.xml.Foo foo, Bar bar) {
 		System.out.println("Target(Foo, Bar) called");
 	}
 

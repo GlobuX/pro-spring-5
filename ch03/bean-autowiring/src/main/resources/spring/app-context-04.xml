@@ -11,7 +11,11 @@
 
     <bean id="bar" class="ru.globux.spring.ch3.xml.Bar"/>
 
-    <bean id="targetByType" autowire="byType" class="ru.globux.spring.ch3.xml.complicated.CTarget"
-        lazy-init="true"/>
+    <bean id="targetByType" class="ru.globux.spring.ch3.xml.complicated.CTarget"
+          lazy-init="true">
+<!--        <property name="fooOne" ref="fooOne"/>-->
+<!--        <property name="bar" ref="bar"/>-->
+<!--        <property name="fooTwo" ref="fooTwo"/>-->
+    </bean>
 
 </beans>

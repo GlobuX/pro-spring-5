@@ -4,126 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f78eaa98-3d23-4e74-a941-88905285dc8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="71574a36-d780-4d63-84c1-7998e50c92bb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/HelloWorldSpringDI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/HelloWorldWithCommandLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/annotated/HelloWorldConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/annotated/HelloWorldSpringAnnotated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/common/Contact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/common/GiftedSinger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/common/Guitar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/common/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/HelloWorldDecoupled.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/HelloWorldDecoupledWithFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/HelloWorldMessageProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/MessageProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/MessageRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/MessageSupportFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/java/ru/globux/spring/ch2/decoupled/StandardOutMessageRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/resources/msf.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/main/resources/spring/app-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/test/java/ru/globux/spring/ch2/TestHelloWorldSpringAnnotated.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/hello-world/src/test/java/ru/globux/spring/ch2/TestHelloWorldSpringDI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/annotated/AnnotatedBeanNaming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/annotated/Award.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/annotated/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/annotated/Trophy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/config/AliasConfigDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/xml/BeanCrazyNaming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/java/ru/globux/spring/ch3/xml/BeanNameAliasing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/resources/spring/app-context-02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/resources/spring/app-context-03.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/main/resources/spring/app-context-annotated.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/test/java/ru/globux/spring/ch3/xml/BeanNamingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/test/resources/logback-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-aliases/src/test/resources/spring/app-context-01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/annotated/AnnotatedDependsOnDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/annotated/Guitar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/annotated/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/config/TargetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/sandbox/Bar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/sandbox/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/sandbox/FooImplOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/sandbox/FooImplTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/sandbox/TrickyTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/Bar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/DependsOnDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/complicated/CTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/complicated/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/complicated/FooImpl1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/java/ru/globux/spring/ch3/xml/complicated/FooImpl2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/resources/spring/app-context-01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/resources/spring/app-context-02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/resources/spring/app-context-03.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/resources/spring/app-context-04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-autowiring/src/main/resources/spring/app-context-05.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-inheritance/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-inheritance/src/main/java/ru/globux/spring/ch3/xml/InheritanceDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-inheritance/src/main/java/ru/globux/spring/ch3/xml/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-inheritance/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-inheritance/src/main/resources/spring/app-context-xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/src/main/java/ru/globux/spring/ch3/NonSingletonDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/src/main/java/ru/globux/spring/ch3/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/src/main/java/ru/globux/spring/ch3/annotated/Singer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/src/main/resources/spring/app-context-annotated.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/bean-instantiation-mode/src/main/resources/spring/app-context-xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/src/main/java/ru/globux/spring/ch3/CDLDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/src/main/java/ru/globux/spring/ch3/Container.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/src/main/java/ru/globux/spring/ch3/ContextualizedDependencyLookup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/src/main/java/ru/globux/spring/ch3/DefaultContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/src/main/java/ru/globux/spring/ch3/Dependency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/cdl/src/main/java/ru/globux/spring/ch3/ManagedComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/ArtworkSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/ContentHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/FtpArtworkSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/Recipient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/annotated/CollectionInjection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/annotated/LyricHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/xml/CollectionInjection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/java/ru/globux/spring/ch3/xml/LyricHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/resources/spring/app-context-annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/collections/src/main/resources/spring/app-context-xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/ConstructorInjection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/DeclareSpringComponents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/Dependency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/annotated/ConfigurableMessageProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/annotated/ConstructorConfusion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/xml/ConfigurableMessageProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/java/ru/globux/spring/ch3/xml/ConstructorConfusion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/resources/spring/app-context-annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/constructor-injection/src/main/resources/spring/app-context-xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/dependency-pull/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/dependency-pull/src/main/java/ru/globux/spring/ch3/DependencyPull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/dependency-pull/src/main/resources/spring/app-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/src/main/java/ru/globux/spring/ch3/BookwormOracle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/src/main/java/ru/globux/spring/ch3/Encyclopedia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/src/main/java/ru/globux/spring/ch3/Oracle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/src/main/java/ru/globux/spring/ch3/XmlConfigWithBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/src/main/java/ru/globux/spring/ch3/xml/InjectRef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/injection/src/main/resources/spring/xml-bean-factory-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/@build.gradle@" beforeDir="false" afterPath="$PROJECT_DIR$/@build@.@gradle@" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02/hello-world/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/hello-world/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/dependency-pull/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/dependency-pull/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,83 +22,6 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/ch02">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/ch02/hello-world">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch02" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch02" type="2d1252cf:ModuleNode" />
-                <item name="hello-world" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch02" type="2d1252cf:ModuleNode" />
-                <item name="hello-world" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch02" type="2d1252cf:ModuleNode" />
-                <item name="hello-world" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch02" type="2d1252cf:ModuleNode" />
-                <item name="hello-world" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-                <item name="org.springframework:spring-context:6.2.2" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch03" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
-                <item name="ch03" type="2d1252cf:ModuleNode" />
-                <item name="dependency-pull" type="2d1252cf:ModuleNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,49 +35,35 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "git@github.com:GlobuX/pro-spring-5.git",
-    "accountId": "496494c6-17b4-4c2a-9af0-f467ee98383a"
+    "accountId": "9442855b-7bbe-4c37-be2f-071ba08d374e"
   }
 }]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="2scKesQ9l3BjOub8DG5tXpQqC1D" />
+  <component name="ProjectId" id="2scxrM9BgSmDJkCxMO65VbR0Xh2" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.Building Gradle Dependencies.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/GitHub/GlobuX/pro-spring-5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22988506",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="pro-spring-5" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -278,20 +75,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f78eaa98-3d23-4e74-a941-88905285dc8b" name="Changes" comment="" />
-      <created>1738749531647</created>
+      <changelist id="71574a36-d780-4d63-84c1-7998e50c92bb" name="Changes" comment="" />
+      <created>1738768862429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1738749531647</updated>
-      <workItem from="1738749545296" duration="9347000" />
+      <updated>1738768862429</updated>
+      <workItem from="1738768864576" duration="6070000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

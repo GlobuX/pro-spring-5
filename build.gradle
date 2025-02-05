@@ -2,5 +2,7 @@ group = 'ru.globux.spring'
 version = '0.0.1-SNAPSHOT'
 
 allprojects {
+//    def root = rootProject.layout.buildDirectory.
+    println project.projectDir.name
     project.layout.buildDirectory = rootProject.layout.buildDirectory
 }

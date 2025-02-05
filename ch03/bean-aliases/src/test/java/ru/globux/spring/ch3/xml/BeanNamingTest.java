@@ -5,9 +5,6 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 
 import java.util.Map;
 
-/**
- * Created by iuliana.cosmina on 2/19/17.
- */
 public class BeanNamingTest {
 
 	@Test
