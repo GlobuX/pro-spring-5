@@ -62,7 +62,7 @@ public class InjectSimpleSpel {
         ctx.load("classpath:spring/app-context-xml.xml");
         ctx.refresh();
 
-        InjectSimpleSpel simple = (InjectSimpleSpel)ctx.getBean("injectSimpleSpel");
+        InjectSimpleSpel simple = (InjectSimpleSpel) ctx.getBean("injectSimpleSpel");
         System.out.println(simple);
 
         ctx.close();

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -19,7 +20,13 @@
             <option value="$PROJECT_DIR$/ch03/collections" />
             <option value="$PROJECT_DIR$/ch03/constructor-injection" />
             <option value="$PROJECT_DIR$/ch03/dependency-pull" />
+            <option value="$PROJECT_DIR$/ch03/field-injection" />
             <option value="$PROJECT_DIR$/ch03/injection" />
+            <option value="$PROJECT_DIR$/ch03/method-injection" />
+            <option value="$PROJECT_DIR$/ch03/method-replacement" />
+            <option value="$PROJECT_DIR$/ch03/nesting" />
+            <option value="$PROJECT_DIR$/ch03/setter-injection" />
+            <option value="$PROJECT_DIR$/ch03/simple-types" />
           </set>
         </option>
       </GradleProjectSettings>

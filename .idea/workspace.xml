@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71574a36-d780-4d63-84c1-7998e50c92bb" name="Changes" comment="">
+    <list default="true" id="71574a36-d780-4d63-84c1-7998e50c92bb" name="Changes" comment="exclude .idea in .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/@build.gradle@" beforeDir="false" afterPath="$PROJECT_DIR$/@build@.@gradle@" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/hello-world/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/hello-world/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/dependency-pull/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/dependency-pull/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/constructor-injection/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/constructor-injection/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/method-injection/src/main/java/ru/globux/spring/ch3/annotated/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/method-injection/src/main/java/ru/globux/spring/ch3/annotated/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/method-injection/src/main/resources/spring/app-context-annotated.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/method-injection/src/main/resources/spring/app-context-annotated.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/simple-types/src/main/java/ru/globux/spring/ch3/annotated/InjectSimpleSpel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/simple-types/src/main/java/ru/globux/spring/ch3/annotated/InjectSimpleSpel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03/simple-types/src/main/java/ru/globux/spring/ch3/xml/InjectSimpleSpel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/simple-types/src/main/java/ru/globux/spring/ch3/xml/InjectSimpleSpel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +25,95 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/ch02/hello-world">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ch02">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ch03/simple-types">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+                <item name="ch03" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+                <item name="ch03" type="2d1252cf:ModuleNode" />
+                <item name="simple-types" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+                <item name="ch03" type="2d1252cf:ModuleNode" />
+                <item name="simple-types" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-spring-5" type="f1a62948:ProjectNode" />
+                <item name="ch03" type="2d1252cf:ModuleNode" />
+                <item name="simple-types" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GlobuX"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GlobuX&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:GlobuX/pro-spring-5.git",
-    "accountId": "9442855b-7bbe-4c37-be2f-071ba08d374e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:GlobuX/pro-spring-5.git&quot;,
+    &quot;accountId&quot;: &quot;496494c6-17b4-4c2a-9af0-f467ee98383a&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2scxrM9BgSmDJkCxMO65VbR0Xh2" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -51,11 +123,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.pro-spring-5 [clean].executor": "Run",
+    "Gradle.pro-spring-5:ch02 [clean].executor": "Run",
+    "Gradle.pro-spring-5:ch02:hello-world [build].executor": "Run",
+    "Gradle.pro-spring-5:ch03:constructor-injection [:ch03:constructor-injection:ru.globux.spring.ch3.DeclareSpringComponents.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:constructor-injection [:ch03:constructor-injection:ru.globux.spring.ch3.annotated.ConstructorConfusion.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:constructor-injection [:ch03:constructor-injection:ru.globux.spring.ch3.xml.ConstructorConfusion.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:field-injection [:ch03:field-injection:ru.globux.spring.ch3.annotated.FieldInjection.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:injection [:ch03:injection:ru.globux.spring.ch3.XmlConfigWithBeanFactory.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:method-injection [:ch03:method-injection:ru.globux.spring.ch3.LookupDemo.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:method-injection [:ch03:method-injection:ru.globux.spring.ch3.annotated.LookupAnnotatedDemo.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:method-injection [:ch03:method-injection:ru.globux.spring.ch3.config.LookupConfigDemo.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:simple-types [:ch03:simple-types:ru.globux.spring.ch3.annotated.InjectSimple.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:simple-types [:ch03:simple-types:ru.globux.spring.ch3.annotated.InjectSimpleSpel.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:simple-types [:ch03:simple-types:ru.globux.spring.ch3.xml.InjectSimple.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:simple-types [:ch03:simple-types:ru.globux.spring.ch3.xml.InjectSimpleSpel.main()].executor": "Run",
+    "Gradle.pro-spring-5:ch03:simple-types [build].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/GitHub/GlobuX/pro-spring-5",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/GitHub/gradle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +153,91 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.InjectSimpleSpel">
+    <configuration name="InjectSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.globux.spring.ch3.annotated.InjectSimple" />
+      <module name="pro-spring-5.ch03.simple-types.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.globux.spring.ch3.annotated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InjectSimpleSpel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.globux.spring.ch3.annotated.InjectSimpleSpel" />
+      <module name="pro-spring-5.ch03.simple-types.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.globux.spring.ch3.annotated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.globux.spring.ch3.xml.InjectSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.globux.spring.ch3.xml.InjectSimple" />
+      <module name="pro-spring-5.ch03.simple-types.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.globux.spring.ch3.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.globux.spring.ch3.xml.InjectSimpleSpel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.globux.spring.ch3.xml.InjectSimpleSpel" />
+      <module name="pro-spring-5.ch03.simple-types.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.globux.spring.ch3.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pro-spring-5:ch03:simple-types [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ch03/simple-types" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.pro-spring-5:ch03:simple-types [build]" />
+        <item itemvalue="Application.ru.globux.spring.ch3.xml.InjectSimpleSpel" />
+        <item itemvalue="Application.ru.globux.spring.ch3.xml.InjectSimple" />
+        <item itemvalue="Application.InjectSimpleSpel" />
+        <item itemvalue="Application.InjectSimple" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,10 +255,24 @@
       <option name="presentableId" value="Default" />
       <updated>1738768862429</updated>
       <workItem from="1738768864576" duration="6070000" />
+      <workItem from="1738820138675" duration="16350000" />
     </task>
+    <task id="LOCAL-00001" summary="exclude .idea in .gitignore">
+      <option name="closed" value="true" />
+      <created>1738820838187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738820838187</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exclude .idea in .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="exclude .idea in .gitignore" />
   </component>
 </project>
