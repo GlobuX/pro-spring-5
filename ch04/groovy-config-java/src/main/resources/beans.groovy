@@ -1,6 +1,6 @@
-package com.apress.prospring5.ch4
+package ru.globux.spring.ch4
 
-import com.apress.prospring5.ch3.xml.Singer
+import ru.globux.spring.ch3.xml.Singer
 
 beans {
     singer(Singer, name: 'John Mayer', age: 39)
