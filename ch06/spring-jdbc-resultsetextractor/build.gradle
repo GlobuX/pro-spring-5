@@ -1,0 +1,68 @@
+plugins {
+	id 'java'
+//	id 'org.springframework.boot' version '3.4.2'
+//	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+repositories {
+	//mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+	compileOnly project(':ch06:plain-jdbc')
+	testCompileOnly project(':ch06:plain-jdbc')
+	// https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+	//compileOnly 'com.mysql:mysql-connector-j:9.2.0'
+	// https://mvnrepository.com/artifact/com.h2database/h2
+	compileOnly 'com.h2database:h2:2.3.232'
+	// https://mvnrepository.com/artifact/org.apache.derby/derby
+	//compileOnly 'org.apache.derby:derby:10.17.1.0'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
+	//implementation 'org.springframework.boot:spring-boot-starter:3.4.2'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+	//compileOnly 'org.springframework.boot:spring-boot-starter-aop:3.4.2'
+	// https://mvnrepository.com/artifact/jakarta.annotation/jakarta.annotation-api
+	//implementation 'jakarta.annotation:jakarta.annotation-api:3.0.0'
+	// https://mvnrepository.com/artifact/org.springframework/spring-core
+	//implementation 'org.springframework:spring-core:6.2.2'
+	// https://mvnrepository.com/artifact/org.springframework/spring-context
+	implementation 'org.springframework:spring-context:6.2.2'
+	// https://mvnrepository.com/artifact/org.springframework/spring-beans
+	implementation 'org.springframework:spring-beans:6.2.2'
+	// https://mvnrepository.com/artifact/org.springframework/spring-aop
+	//implementation 'org.springframework:spring-aop:6.2.2'
+	// https://mvnrepository.com/artifact/org.springframework/spring-dao
+	//implementation 'org.springframework:spring-dao:2.0.8'
+	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-jdbc
+	implementation 'org.springframework.data:spring-data-jdbc:3.4.2'
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjtools
+	//implementation 'org.aspectj:aspectjtools:1.9.22.1'
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+	implementation 'org.apache.commons:commons-lang3:3.17.0'
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2
+	//implementation 'org.apache.commons:commons-dbcp2:2.13.0'
+	// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+	implementation 'org.apache.logging.log4j:log4j-core:2.24.3'
+	testImplementation platform('org.junit:junit-bom:5.10.0')
+	//testImplementation 'org.junit.jupiter:junit-jupiter'
+	testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+	useJUnitPlatform()
+}
+
+
+//dependencies {
+//	compile project(':chapter06:plain-jdbc')
+//	compile db.h2
+//}
+//
+//jar {
+//	manifest {
+//		attributes("Created-By"      : "Iuliana Cosmina",
+//				"Specification-Title": "Pro Spring 5",
+//				"Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+//	}
+//}

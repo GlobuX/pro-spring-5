@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.2'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+    compileOnly 'org.springframework.boot:spring-boot-starter-aop:3.4.2'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
+    //implementation 'org.springframework.boot:spring-boot-starter:3.4.2'
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    //implementation 'org.springframework:spring-context:6.2.2'
+    // https://mvnrepository.com/artifact/org.springframework/spring-beans
+    implementation 'org.springframework:spring-beans:6.2.2'
+    // https://mvnrepository.com/artifact/org.aspectj/aspectjtools
+    implementation 'org.aspectj:aspectjtools:1.9.22.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.24.3'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+//buildscript {
+//    repositories {
+//        mavenLocal()
+//        mavenCentral()
+//        maven { url "http://repo.spring.io/release" }
+//        maven { url "http://repo.spring.io/snapshot" }
+//        maven { url "https://repo.spring.io/libs-snapshot" }
+//        maven { url "http://repo.spring.io/milestone" }
+//        maven { url "https://repo.spring.io/libs-milestone" }
+//    }
+//
+//    dependencies {
+//        classpath boot.springBootPlugin
+//    }
+//}
+//
+//apply plugin: 'org.springframework.boot'
+//
+//dependencies {
+//    compile boot.starterAop
+//}
+//
+//jar {
+//    manifest {
+//        attributes(
+//                "Created-By": "Iuliana Cosmina",
+//                "Specification-Title": "Pro Spring 5",
+//                "Main-Class": "com.apress.prospring5.ch5.Application",
+//                "Class-Path": configurations.compile.collect { it.getName() }.join(' ')
+//        )
+//    }
+//}
