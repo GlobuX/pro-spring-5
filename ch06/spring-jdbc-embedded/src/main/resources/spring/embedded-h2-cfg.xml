@@ -18,9 +18,9 @@
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
           p:dataSource-ref="dataSource" />
 
-    <bean id="singerDao" class="com.apress.prospring5.ch6.JdbcSingerDao"
+    <bean id="singerDao" class="ru.globux.spring.ch6.JdbcSingerDao"
           p:jdbcTemplate-ref="jdbcTemplate" />
 
-    <bean class="com.apress.prospring5.ch6.CleanUp" c:jdbcTemplate-ref="jdbcTemplate"
-           destroy-method="destroy"/>
+    <bean class="ru.globux.spring.ch6.CleanUp" c:jdbcTemplate-ref="jdbcTemplate"
+          destroy-method="destroy"/>
 </beans>
