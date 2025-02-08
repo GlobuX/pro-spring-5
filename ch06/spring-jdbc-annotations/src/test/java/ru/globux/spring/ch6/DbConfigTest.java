@@ -1,8 +1,8 @@
 package ru.globux.spring.ch6;
 
 import ru.globux.spring.ch6.config.DbConfig;
-import org.junit.Test;
-import org.junit.Ignore;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Disabled;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -15,11 +15,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
-@Ignore  // requires a mysql database
+@Disabled  // requires a mysql database
 public class DbConfigTest {
 
 	private static Logger logger = LoggerFactory.getLogger(DbConfigTest.class);
