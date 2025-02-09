@@ -8,7 +8,7 @@
 
     <bean id="shaDigestFactory" 
         class="ru.globux.spring.ch4.MessageDigestFactory"
-        p:algorithmName="SHA1"/>
+        p:algorithmName="SHA256"/>
 
     <bean id="defaultDigestFactory"
         class="ru.globux.spring.ch4.MessageDigestFactory"/>

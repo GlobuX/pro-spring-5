@@ -8,9 +8,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.util.StopWatch;
 
-/**
- * Created by iuliana.cosmina on 2/19/17.
- */
 public class LookupConfigDemo {
 
 	@Configuration

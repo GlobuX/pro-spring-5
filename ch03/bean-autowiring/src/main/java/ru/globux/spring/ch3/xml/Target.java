@@ -15,6 +15,8 @@ public class Target {
     }
     
     public Target(Foo foo, Bar bar) {
+        this.fooOne = foo;
+        this.bar = bar;
         System.out.println("Target(Foo, Bar) called");
     }
     
@@ -42,12 +44,15 @@ public class Target {
         
         System.out.println("Using byName:\n");
         t = (Target) ctx.getBean("targetByName");
-        
+        System.out.println("fooOne: " + t.fooOne + ", fooTwo: " + t.fooTwo + ", bar: " + t.bar);
+
         System.out.println("\nUsing byType:\n");
         t = (Target) ctx.getBean("targetByType");
-        
+        System.out.println("fooOne: " + t.fooOne + ", fooTwo: " + t.fooTwo + ", bar: " + t.bar);
+
         System.out.println("\nUsing constructor:\n");
         t = (Target) ctx.getBean("targetConstructor");
+        System.out.println("fooOne: " + t.fooOne + ", fooTwo: " + t.fooTwo + ", bar: " + t.bar);
 
         ctx.close();
         

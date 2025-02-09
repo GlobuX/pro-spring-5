@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- remove attribute 'primary' to cause an UnsatisfiedDependencyException whe runnign the example -->
+    <!-- remove attribute 'primary' to cause an UnsatisfiedDependencyException whe running the example -->
     <bean id="fooOne" class="ru.globux.spring.ch3.xml.complicated.FooImpl1" primary="true"/>
     <bean id="fooTwo" class="ru.globux.spring.ch3.xml.complicated.FooImpl2"/>
 

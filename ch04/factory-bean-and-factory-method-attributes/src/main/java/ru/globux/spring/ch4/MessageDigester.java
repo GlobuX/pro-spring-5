@@ -1,6 +1,7 @@
 package ru.globux.spring.ch4;
 
 import java.security.MessageDigest;
+import java.util.Locale;
 
 public class MessageDigester {
     private MessageDigest digest1;
@@ -27,6 +28,14 @@ public class MessageDigester {
         digest.reset();
         byte[] bytes = msg.getBytes();
         byte[] out = digest.digest(bytes);
-        System.out.println(out);
+        System.out.println(byteArrayToHexString(out));
+    }
+
+    private String byteArrayToHexString(byte[] bytes) {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < bytes.length; i++) {
+            result.append(Integer.toString((bytes[i] & 0xff) + 0x100, 16).substring(1));
+        }
+        return result.toString().toUpperCase(Locale.ROOT);
     }
 }

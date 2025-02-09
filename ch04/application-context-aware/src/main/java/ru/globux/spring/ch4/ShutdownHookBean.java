@@ -9,9 +9,9 @@ public class ShutdownHookBean implements ApplicationContextAware {
     private ApplicationContext ctx;
 
     /** @Implements {@link ApplicationContextAware#setApplicationContext(ApplicationContext)}  }*/
-    public void setApplicationContext(ApplicationContext ctx)
-        throws BeansException {
-
+    @Override
+    public void setApplicationContext(ApplicationContext ctx) throws BeansException {
+        System.out.println("setApplicationContext() overrides ApplicationContextAware");
         if (ctx instanceof GenericApplicationContext) {
             ((GenericApplicationContext) ctx).registerShutdownHook();
         }
