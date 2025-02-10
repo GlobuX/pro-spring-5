@@ -30,7 +30,7 @@
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
         </property>
-        <property name="packagesToScan" value="com.apress.prospring5.ch8.entities"/>
+        <property name="packagesToScan" value="ru.globux.spring.ch8.entities"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
@@ -42,5 +42,5 @@
         </property>
     </bean>
 
-    <context:component-scan base-package="com.apress.prospring5.ch8.service" />
+    <context:component-scan base-package="ru.globux.spring.ch8.service" />
 </beans>
