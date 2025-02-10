@@ -37,7 +37,7 @@
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
         </property>
         <property name="packagesToScan"
-                  value="com.apress.prospring5.ch9"/>
+                  value="ru.globux.spring.ch9"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">
@@ -52,9 +52,9 @@
     </bean>
 
     <context:component-scan
-            base-package="com.apress.prospring5.ch9" />
+            base-package="ru.globux.spring.ch9" />
 
-    <jpa:repositories base-package="com.apress.prospring5.ch9"
+    <jpa:repositories base-package="ru.globux.spring.ch9"
                       entity-manager-factory-ref="emf"
                       transaction-manager-ref="transactionManager"/>
 </beans>
