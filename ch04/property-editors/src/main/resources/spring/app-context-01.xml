@@ -18,7 +18,7 @@
     </util:list>
 
     <bean id="builtInSample" class="ru.globux.spring.ch4.PropertyEditorBean"
-          p:character="A"
+        p:character="A"
         p:bytes="John Mayer"
         p:cls="java.lang.String"
         p:trueOrFalse="true"
