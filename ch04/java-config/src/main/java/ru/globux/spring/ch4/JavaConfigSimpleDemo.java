@@ -15,6 +15,7 @@ public class JavaConfigSimpleDemo {
     static class AppConfig {
         @Bean
         public MessageProvider messageProvider() {
+            System.out.println("Load bean: ConfigurableMessageProvider");
             return new ConfigurableMessageProvider();
         }
 
@@ -22,7 +23,7 @@ public class JavaConfigSimpleDemo {
         public MessageRenderer messageRenderer() {
             MessageRenderer renderer = new StandardOutMessageRenderer();
             renderer.setMessageProvider(messageProvider());
-
+            System.out.println("Load bean: StandardOutMessageRenderer");
             return renderer;
         }
     }

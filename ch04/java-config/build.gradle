@@ -7,19 +7,20 @@ repositories {
 }
 
 dependencies {
-	compileOnly project(':ch02:hello-world')
-	compileOnly project(':ch03:constructor-injection')
+	implementation project(':ch02:hello-world')
+	implementation project(':ch03:constructor-injection')
 	// https://mvnrepository.com/artifact/org.springframework/spring-context
 	implementation 'org.springframework:spring-context:6.2.2'
 	// https://mvnrepository.com/artifact/org.springframework/spring-beans
 	implementation 'org.springframework:spring-beans:6.2.2'
-	testImplementation platform('org.junit:junit-bom:5.10.0')
-	testImplementation 'org.junit.jupiter:junit-jupiter'
+	compileOnly 'ch.qos.logback:logback-classic:1.5.16'
+//	testImplementation platform('org.junit:junit-bom:5.10.0')
+//	testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
-test {
-	useJUnitPlatform()
-}
+//test {
+//	useJUnitPlatform()
+//}
 
 //dependencies {
 //

@@ -5,4 +5,5 @@ allprojects {
     String relPath = project.getLayout().getProjectDirectory().toString() - rootProject.getLayout().getProjectDirectory().toString()
     String bldDir = rootProject.getLayout().buildDirectory.get().toString() + relPath
     project.getLayout().setBuildDirectory(project.getLayout().getBuildDirectory().dir(bldDir))
+
 }

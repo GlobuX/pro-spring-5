@@ -13,10 +13,10 @@ dependencies {
 	implementation 'org.springframework:spring-context:6.2.2'
 	// https://mvnrepository.com/artifact/org.springframework/spring-beans
 	implementation 'org.springframework:spring-beans:6.2.2'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	testImplementation 'org.springframework:spring-test:6.2.2'
 	testImplementation platform('org.junit:junit-bom:5.10.0')
-	testImplementation 'junit:junit:4.13.2'
-	//testImplementation 'org.junit.jupiter:junit-jupiter'
+	testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
 test {
