@@ -12,7 +12,6 @@ public class FoodProviderServiceImpl implements FoodProviderService {
         List<Food> lunchSet = new ArrayList<>();
         lunchSet.add(new Food("Milk"));
         lunchSet.add(new Food("Biscuits"));
-
         return lunchSet;
     }
 }

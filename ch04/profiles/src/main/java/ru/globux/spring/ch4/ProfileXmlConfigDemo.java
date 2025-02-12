@@ -6,8 +6,11 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 public class ProfileXmlConfigDemo {
     public static void main(String... args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
+//        ctx.getEnvironment().setActiveProfiles("kindergarten");
+        ctx.getEnvironment().setActiveProfiles("highschool");
         ctx.load("classpath:spring/*-config.xml");
         ctx.refresh();
+
 
         FoodProviderService foodProviderService =    
             ctx.getBean("foodProviderService", FoodProviderService.class);

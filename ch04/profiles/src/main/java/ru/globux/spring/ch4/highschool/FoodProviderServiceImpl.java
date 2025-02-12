@@ -13,7 +13,6 @@ public class FoodProviderServiceImpl implements FoodProviderService {
         lunchSet.add(new Food("Coke"));
         lunchSet.add(new Food("Hamburger"));
         lunchSet.add(new Food("French Fries"));
-
         return lunchSet;
     }
 }
