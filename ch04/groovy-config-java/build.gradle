@@ -9,7 +9,7 @@ repositories {
 dependencies {
 	compileOnly project(':ch03:bean-inheritance')
 	// https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
-	compileOnly 'org.codehaus.groovy:groovy-all:2.4.21'
+	implementation 'org.apache.groovy:groovy-all:4.0.25'
 	// https://mvnrepository.com/artifact/org.springframework/spring-context
 	implementation 'org.springframework:spring-context:6.2.2'
 	// https://mvnrepository.com/artifact/org.springframework/spring-beans

@@ -1,6 +1,6 @@
 package ru.globux.spring.ch4
 
-import ru.globux.spring.ch3.xml.Singer
+import ru.globux.spring.ch3.xml.*
 import org.springframework.context.support.GenericApplicationContext
 import org.springframework.beans.factory.groovy.GroovyBeanDefinitionReader
 

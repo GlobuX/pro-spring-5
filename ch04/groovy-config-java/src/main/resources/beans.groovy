@@ -1,4 +1,4 @@
-package ru.globux.spring.ch4
+//package ru.globux.spring.ch4
 
 import ru.globux.spring.ch3.xml.Singer
 
